@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "husky": {
-    "hookst": {
+    "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
