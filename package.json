@@ -1,0 +1,16 @@
+{
+  "name": "lintcommit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "husky": {
+    "hookst": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1"
+  }
+}
