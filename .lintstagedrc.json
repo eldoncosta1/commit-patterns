@@ -1,0 +1,5 @@
+{
+  "*.js": [
+    "yarn eslint src/ --fix --ext .js"
+  ]
+}
